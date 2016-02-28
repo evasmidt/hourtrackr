@@ -120,6 +120,9 @@ a {
 a:active,
 a:hover {
   outline: 0; }
+  .onstate {
+    color:magenta;
+  }
 
 /* Text-level semantics
      ========================================================================== */
