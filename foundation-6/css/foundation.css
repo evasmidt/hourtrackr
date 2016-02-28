@@ -49,13 +49,11 @@ section,
 summary {
   display: block; }
 
- header{
-width:100%;
+ /*header{
   display:inline-block;
  }
   nav{
-    /*display:inline-block;*/
-    border:1px solid black;
+    display:inline-block;
   
   }
   nav ul{
@@ -70,7 +68,7 @@ width:100%;
 
   nav select {
     display:inline-block;
-  }
+  }*/
 
 /**
    * 1. Correct `inline-block` display not defined in IE 8/9.
