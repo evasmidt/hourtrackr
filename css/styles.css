@@ -1,0 +1,28 @@
+
+
+
+/*body {
+	font-family: Verdana;
+}*/
+
+header{
+	border: 1px solid red;
+}
+
+nav {
+	display:inline-block;
+}
+
+table {
+	border: 1px solid red;
+}
+
+section {
+	border: 1px solid blue;
+}
+
+/*.start-menu {
+	border: 1px solid magenta;
+	max-width: 700px;
+	margin:auto;
+}*/

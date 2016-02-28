@@ -3,6 +3,7 @@
 <head>
 	<title>Eva Smidt</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="foundation-6/css/foundation.css" />
 </head>
 <body>
 	<header>
@@ -14,31 +15,40 @@
 				<li>Reports</li>
 				<li>Track Time</li>
 			</ul>
-			<form>
-				<input type=...."">
-			</form>
+			<select onChange="window.location.href=this.value">
+				<option value="#">Username</option>
+				<option value="#">Settings</option>
+				<option value="#">Logout</option>
+			</select>
 		</nav>
 	</header>
-	<section class="start-menu">
-		<form input="">Start a new...
-			<option>Add Time Entry>
-				<label>Add New Task</label>
-				<label>Create New Project</label>
-			</form>
-	</section>
+
+		
+		<div class="start-menu">
+			<h1>TimeTrackr</h1>
+		<select onChange="window.location.href=this.value">
+			<option value="#">Create a new...</option>
+			<option value="http://google.com">Time Entry</option>
+			<option value="#">Task</option>
+			<option value="#">Project</option>
+		</select>
+	</div>
+
 	<section>
 		<h1>Dashboard</h1>
-		<table>
-			<td>
-				<tr>eCommerce Site</tr>
-				<tr>0 hours</tr>
-			</td>
-				<tr>Client 2 Site</tr>
-				<tr>45 hours</tr>
-			<td>
-				<tr>Client 3 Site</tr>
-				<tr>50.25 hours</tr>
-			</td>
+		<table border="1">
+			<tr>
+				<td>eCommerce Site</td>
+				<td>0 hours</td>
+			</tr>
+			<tr>
+				<td>Client 2 Site</td>
+				<td>45 hours</td>
+			</tr>
+			<tr>
+				<td>Client 3 Site</td>
+				<td>50.25 hours</t>
+			</tr>
 		</table>
 	</section>
 
