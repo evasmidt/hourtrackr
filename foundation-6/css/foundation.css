@@ -51,12 +51,15 @@ summary {
 
  /*header{
   display:inline-block;
- }
-  nav{
-    display:inline-block;
+ }*/
+/* header{
+    margin-bottom:0;
+    padding:0;
   
-  }
-  nav ul{
+    height:auto;
+  
+  }*/
+  /*nav ul{
     display:inline-block;
     border:1px solid black;
   
@@ -64,11 +67,13 @@ summary {
   nav li {
     display: inline-block;
     border:1px solid black;
+    margin:auto;
+    padding:1rem;
   }
 
-/*  nav select {
-    display:inline-block;
-  }*/
+nav select {
+    margin-top:1rem;
+  }
 
 /**
    * 1. Correct `inline-block` display not defined in IE 8/9.
