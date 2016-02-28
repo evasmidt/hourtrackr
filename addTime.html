@@ -8,10 +8,10 @@
 <body>
 	<header>
 		<div class="row">
-		<div class="large-3 columns">
+		<div class="small-2 columns">
 			<img src="logo">
 		</div>
-		<div class="large-6 columns">
+		<div class="small-6 columns">
 			<nav>
 			<ul>
 				<a href="#"><li>Projects</li></a>
@@ -21,7 +21,16 @@
 			</ul>
 			</nav>
 		</div>
-		<div class="large-3 columns header-dropdown">
+	<div class="small-2 columns header-dropdown">
+		<select onChange="window.location.href=this.value">
+			<option value="#">Create a new...</option>
+			<option value="http://google.com">Time Entry</option>
+			<option value="#">Task</option>
+			<option value="#">Project</option>
+		</select>
+	</div>
+
+		<div class="small-2 columns header-dropdown">
 			<select onChange="window.location.href=this.value">
 				<option value="#">Username</option>
 				<option value="#">Settings</option>
@@ -30,30 +39,22 @@
 	</div>
 	</div>
 	</header>
-
-		<div class="start-menu row">
-		<div class="large-4 columns"><h1>TimeTrackr</h1>
-		</div>
-		<div class="large-8 columns">
-		<select onChange="window.location.href=this.value">
-			<option value="#">Create a new...</option>
-			<option value="http://google.com">Time Entry</option>
-			<option value="#">Task</option>
-			<option value="#">Project</option>
-		</select>
+		
+	<div class="row">
+	<h1>TimeTrackr</h1>
 	</div>
-	</div>
+	
 
 	<section class="row">
-		<h2>Dashboard</h2>
+		<h2>Add Time to....</h2>
 		<div class="row">
-			<div class="medium-9 columns">eCommerce Site</div>
+			<div class="medium-9 columns"><a href="#">eCommerce Site</a></div>
 			<div class="medium-3 columns">0 hours</div>
-			<div class="medium-9 columns">Client 2 Site</div>
+			<div class="medium-9 columns"><a href="#">Client 2 Site</a></div>
 			<div class="medium-3 columns">45 hours</div>
-			<div class="medium-9 columns">Client 3 Site</div>
+			<div class="medium-9 columns"><a href="#">Client 3 Site</a></div>
 			<div class="medium-3 columns">50.25 hours</div>
-			<div class="medium-9 columns">eCommerce Site</div>
+			<div class="medium-9 columns"><a href="#">eCommerce Site</a></div>
 			<div class="medium-3 columns">0 hours</div>
 			
 		</div>

@@ -430,8 +430,8 @@ select {
   border-radius: 0; }
 
 .start-menu {
-  max-width: 700px;
-  margin:auto;
+  margin-top: 0.67em;
+  /*padding-top:1em;*/
 }
 
 #map_canvas img,
