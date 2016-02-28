@@ -49,10 +49,19 @@ section,
 summary {
   display: block; }
 
+ header{
+width:100%;
+  display:inline-block;
+ }
   nav{
+    /*display:inline-block;*/
+    border:1px solid black;
+  
+  }
+  nav ul{
     display:inline-block;
     border:1px solid black;
-    width: 100%;
+  
   }
   nav li {
     display: inline-block;
