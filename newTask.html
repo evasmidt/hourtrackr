@@ -23,9 +23,9 @@
 			<nav>
 			<ul>
 				<a href="newProject.html"><li>Projects</li></a>
-				<a href="#"><li>Tasks</li></a>
+				<a href="newTask.html" class="onstate"><li>Tasks</li></a>
 				<a href="#"><li>Reports</li></a>
-				<a href="addTime.html" class="onstate"><li>Track Time</li></a>
+				<a href="addTime.html"><li>Track Time</li></a>
 			</ul>
 			</nav>
 		</div>
@@ -49,21 +49,32 @@
 	</header>
 		
 	<div class="row">
-	<h1>Add Time</h1>
+	<h1>New Task</h1>
 	</div>
 	
 		<div class="row">
-			<div class="small-4 columns"><a href="#">Task 1 ipsum dolor</a></div>
-			<div class="small-4 columns"><a href="#">0 hours</a></div>
-			<div class="small-4 columns"><i class="gen-enclosed foundicon-calendar"></i><input type="text" class="span2" value="02/16/12" data-date-format="mm/dd/yy" id="dp2"></div>
-			<div class="small-4 columns"><a href="#">Task 2 Lorem ipsum dolor</a></div>
-			<div class="small-4 columns"><a href="#">0 hours</a></div>
-			<div class="small-4 columns"><i class="gen-enclosed foundicon-calendar"></i><input type="text" class="span2" value="02/16/12" data-date-format="mm/dd/yy" id="dp2"></div>
-			<div class="small-4 columns"><a href="#">eCommerce Site</a></div>
-			<div class="small-4 columns"><a href="#">0 hours</a></div>
-			<div class="small-4 columns"><i class="gen-enclosed foundicon-calendar"></i><input type="text" class="span2" value="02/16/12" data-date-format="mm/dd/yy" id="dp2"></div>	
+			<div class="small-6 columns"><select onChange="window.location.href=this.value">
+				<option value="#">Select Project</option>
+				<option value="#">Project 1</option>
+				<option value="#">Project 2</option>
+				<option value="#">Longer Project Name1</option>
+			</select>
+			</div>
 		</div>
-
+		<div class="row">
+			<div class="small-6 columns small-offset-2">Estimated Hours</div>
+			<div class="small-6 columns small-offset-2"><input type="text" value="0 hours"></div>
+			<div class="small-6 columns small-offset-2">Date Due</div>
+			<div class="small-6 columns small-offset-2"><i class="gen-enclosed foundicon-calendar"></i><input type="text" class="span2" value="02/16/12" data-date-format="mm/dd/yy" id="dp2"></div>
+		
+			<div class="row">
+				<div class="small-6 columns small-offset-4"><a href="#" class="button">Save</a></div>	
+			</div>
+		</div>
+<div class="row">
+			<div class="small-6 columns"><a href="newTask.html" class="button">Create Another</a></div>	
+		</div>
+</div>
 
 	<footer></footer>
 </body>
