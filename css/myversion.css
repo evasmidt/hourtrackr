@@ -12,7 +12,7 @@
    *    without disabling user zoom.
    */
 html {
-  font-family: 'Lora', serif;
+  font-family: sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -26,8 +26,6 @@ body {
   margin: 0; 
  
 }
-
-
 
 /* HTML5 display definitions
      ========================================================================== */
@@ -410,7 +408,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Lora', serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -1250,7 +1248,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Bree Serif', serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -1362,25 +1360,6 @@ cite {
   cite:before {
     content: '\2014 \0020'; }
 
-abbr {
-  color: #0a0a0a;
-  cursor: help;
-  border-bottom: 1px dotted #0a0a0a; }
-
-code {
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-weight: normal;
-  color: #0a0a0a;
-  background-color: #e6e6e6;
-  border: 1px solid #cacaca;
-  padding: 0.125rem 0.3125rem 0.0625rem; }
-
-kbd {
-  padding: 0.125rem 0.25rem 0;
-  margin: 0;
-  background-color: #e6e6e6;
-  color: #0a0a0a;
-  font-family: Consolas, "Liberation Mono", Courier, monospace; }
 
 .subheader {
   margin-top: 0.2rem;
